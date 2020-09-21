@@ -130,7 +130,7 @@ Vagrant creará automáticamente las VMs en Virtualbox.
 
 Se va a lanzar una GUI que corresponde al Windows Zombie como así también del Kali Linux del atacante.
 
-	La box de Windows tiene algunos inconvenientes que no permiten configurar todo de forma automática, como por ejemplo no tener instaladas las guest tools.
+> La box de Windows tiene algunos inconvenientes que no permiten configurar todo de forma automática, como por ejemplo no tener instaladas las guest tools.
 
 Por lo tanto, lo primero que se debe hacer:
 
@@ -138,7 +138,7 @@ Es cambiar manualmente la interface de red de virtualbox (de la VM que ejecuto) 
 
 Luego en segundo lugar hay deshabilitar el firewall.
 
-	Desde la GUI es necesario desactivar el Firewall de Windows para que funcione el laboratorio.
+> Desde la GUI es necesario desactivar el Firewall de Windows para que funcione el laboratorio.
 
 Lo tecero que deberá hacer es tomar nota de las IP que tomo cada uno de los nodos.
 
