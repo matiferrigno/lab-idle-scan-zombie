@@ -174,7 +174,9 @@ eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 vagrant@kali:~$ exit
 logout
 Connection to 127.0.0.1 closed.
+```
 
+```
 $ vagrant ssh victima
 
 The programs included with the Debian GNU/Linux system are free software;
