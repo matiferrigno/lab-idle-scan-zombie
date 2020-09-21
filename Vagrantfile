@@ -7,19 +7,21 @@ Vagrant.configure("2") do |config|
     	name: "vboxnet0" 
     victima.vm.provider "virtualbox" do |vb|	
 	vb.memory = "2048"
-	vb.gui = true
     end
+    victima.vm.provision "shell",
+	    inline: "apt update && apt install -y --no-install-recommends tcpdump hping3"
   end  
 
   config.vm.define "atacante" do |atacante|
-    atacante.vm.box = "kalilinux/rolling"
+    atacante.vm.box = "debian/jessie64"
     atacante.vm.synced_folder ".", "/vagrant", disabled: true
     atacante.vm.network "private_network", type: "dhcp",
     	name: "vboxnet0"
     atacante.vm.provider "virtualbox" do |vb|	
 	vb.memory = "2048"
-	vb.gui = true
     end
+    atacante.vm.provision "shell",
+	    inline: "apt update && apt install -y --no-install-recommends tcpdump hping3"
   end  
   
   config.vm.define "zombie" do |zombie|
