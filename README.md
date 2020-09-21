@@ -224,6 +224,8 @@ lab-idle-scan-zombie/$ vagrant destroy --force
 
 ## TODO
 
+* Automatizar la creación de vboxnet0 si no está creada.
+
 * Automatizar windows (deshabilitar firewall y instalar guest-tools).
 
 * Hacer un lab que las VMs esten en distintas LAN. La victima podría incluso no incluirse como parte del laboratorio de Vagrant o bien ser opcional.
