@@ -224,8 +224,10 @@ lab-idle-scan-zombie/$ vagrant destroy --force
 
 ## TODO
 
-* Automatizar windows (deshabilitar firewall y instalar guest-tools)
+* Automatizar windows (deshabilitar firewall y instalar guest-tools).
 
 * Hacer un lab que las VMs esten en distintas LAN. La victima podría incluso no incluirse como parte del laboratorio de Vagrant o bien ser opcional.
+
+* Agregar más ejercicios.
 
 * Algun otro fix durante la marcha.
