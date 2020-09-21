@@ -1,5 +1,8 @@
 # Lab Idle Scan - Zombie (alfa)
 
+Last update: 21-sep-2020
+Status: Alfa
+
 **Requisitos:**
 
 * VirtualBox (https://www.virtualbox.org/wiki/Downloads)
@@ -215,3 +218,11 @@ lab-idle-scan-zombie/$ vagrant destroy --force
 ==> victima:Destroying VM and associated drives...
 ==> zombie: Destroying VM and associated drives...
 ```
+
+## TODO
+
+* Automatizar windows (deshabilitar firewall y instalar guest-tools)
+
+* Hacer un lab que las VMs esten en distintas LAN. La victima podría incluso no incluirse como parte del laboratorio de Vagrant o bien ser opcional.
+
+* Algun otro fix durante la marcha.
